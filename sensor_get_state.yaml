@@ -13,6 +13,7 @@ intents:
         slots:
           domain: sensor
           device_class: temperature
+          translated_device_class: "hőmérséklet"
         # páratartalom
       - sentences:
           - "(Mi|Mennyi) a páratartalom a [<area>[ban][ben]]"
@@ -24,3 +25,4 @@ intents:
         slots:
           domain: sensor
           device_class: humidity
+          translated_device_class: "páratartalom"
