@@ -4,4 +4,7 @@ Például az előszoba lámpa Asszisztens felé "előszoba"-ként jelenjen meg.
 
 A fájlokat a home assistant config/custom_sentences/hu mappájába kell helyezni, ha nincs még custom_sentences és azon belül hu mappa, akkor ezeket előbb létre kell hozni. 
 
+UPDATE: 
+A szenzor lekérdező intentek első verziója is felkerült.
+
 
