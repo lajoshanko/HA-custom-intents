@@ -20,7 +20,7 @@ intents:
         response: one
         requires_context:
           domain: sensor
-          device_class: temperature
+          device_class: humidity
         slots:
           domain: sensor
-          device_class: temperature
+          device_class: humidity
