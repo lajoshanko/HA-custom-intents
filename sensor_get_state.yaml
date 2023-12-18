@@ -4,7 +4,7 @@ intents:
     data:
     # hőmérséklet
       - sentences:
-          - "<what_is> (a|az) hőmérséklet a [<area>[ban][ben]]"
+          - "<what_is> (a|az) hőmérséklet a <area>[ban|ben]"
           - "<what_is> (a|az) <name> (hőmérséklet[e])"
         response: one
         requires_context:
@@ -16,7 +16,7 @@ intents:
           translated_device_class: "hőmérséklet"
         # páratartalom
       - sentences:
-          - "<what_is> (a|az) páratartalom a [<area>[ban][ben]]"
+          - "<what_is> (a|az) páratartalom a <area>[ban|ben]"
           - "<what_is> (a|az) <name> (páratartal[om][ma])"
         response: one
         requires_context:
