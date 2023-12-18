@@ -4,8 +4,8 @@ intents:
     data:
     # hőmérséklet
       - sentences:
-          - "(Mi|Mennyi) a hőmérséklet a [<area>[ban][ben]]"
-          - "(Mi|Mennyi) a <name> (hőmérséklet[e])"
+          - "(Mi|Mennyi) (a|az) hőmérséklet a [<area>[ban][ben]]"
+          - "(Mi|Mennyi) (a|az) <name> (hőmérséklet[e])"
         response: one
         requires_context:
           domain: sensor
@@ -16,8 +16,8 @@ intents:
           translated_device_class: "hőmérséklet"
         # páratartalom
       - sentences:
-          - "(Mi|Mennyi) a páratartalom a [<area>[ban][ben]]"
-          - "(Mi|Mennyi) a <name> (páratartal[om][ma])"
+          - "(Mi|Mennyi) (a|az) páratartalom a [<area>[ban][ben]]"
+          - "(Mi|Mennyi) (a|az) <name> (páratartal[om][ma])"
         response: one
         requires_context:
           domain: sensor
